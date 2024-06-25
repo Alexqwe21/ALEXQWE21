@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+@font-face {
+
+  font-family: "idroid";
+  src: url("fontes/idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+
+body {
+  margin: 0 auto;
+  background: #c0b574;
+}
+
+.site {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+  /* box-shadow: 0px 20px 14px 3px; */
+}
+
+
+
+body {
+
+  /* background: red; */
+}
+
+
+header {
+  background-image: linear-gradient(#35be72, #1a5c37);
+  padding: 20px;
+  min-width: 150px;
+  
+
+
+}
+
+header h2 {
+
+
+  text-align: center;
+  font-size: 50pt;
+  text-transform: uppercase;
+  color: white;
+
+
+}
+
+header p {
+
+  text-align: center;
+  font-size: 25px;
+  color: rgb(194, 191, 191);
+
+}
+
+nav ul {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+
+}
+
+
+
+
+
+
+nav ul li {
+
+  /* margin: 0 10px; */
+}
+
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  /* padding: 0 10px; */
+  /* margin: 0 3px; */
+
+}
+
+nav ul :hover {
+
+
+  color: rgb(218, 255, 8);
+  transform: scale(1.2);
+  transition: 0.5s;
+
+
+}
+
+
+nav ul li::after {}
+
+.site .Android h2,
+.versao h2,
+.mascote h2 {
+  font-family: "idroid";
+  color: #195c37;
+}
+
+.site .Android p,
+.versao p,
+.mascote p,
+.listas p,
+.subfinal {
+
+  text-indent: 40px;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.site .Android span,
+.site .mascote p span,
+.site .listas span {
+  color: #195c37;
+  font-weight: 900;
+}
+
+
+.site .versao h2,
+.mascote h2 {
+  /* background: #02853d49; */
+  background-image: linear-gradient(to right, #c5ebd6, #fff);
+}
+
+.site .Android h2,
+.versao h2,
+.mascote h2 {
+
+  padding: 0 10px;
+}
+
+.site .versao span a,
+.mascote span a {
+
+  text-decoration: none;
+  color: black;
+}
+
+.site .versao span,
+.mascote span {
+  background: #195c3742;
+}
+
+.site .versao span:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.site .versao span ::after {
+  content: aaaa;
+}
+
+.site .versao .img01,
+.mascote .img01 {
+
+  width: 16px;
+  height: 13px;
+}
+
+.site .versao .imagem01 img,
+.site .mascote .imagem02 img {
+
+  width: 100%;
+  height: auto;
+}
+
+
+.site .versao .Dandroids span {
+
+  color: #003813;
+  font-weight: 900;
+  background: none;
+}
+
+.site .mascote span:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.site .mascote span,
+.site .subfinal span {
+
+  color: #195c37;
+  font-weight: 900;
+
+
+}
+
+.site .mascote .Bugdroid {
+
+  background: none;
+
+}
+
+.site .mascote .Bugdroid:hover {
+  background: none;
+  text-decoration: none;
+}
+
+
+.site .mascote .imagem03 {
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.site .mascote .imagem03 img {
+
+  /* height: 300px; */
+  max-width: 350px;
+  display: block;
+  margin: auto;
+
+}
+
+.site-video {
+  
+  max-width: 1200px;
+ 
+  background: #003813;
+  padding: 10px;
+  box-shadow: 0px 20px 14px 3px;
+  margin:  0 auto;
+
+}
+
+
+
+.site-video .video .video01 {
+  max-width: 1200px;
+margin:  0 -20px 30px -20px;
+padding: 20px;
+padding-bottom: 59%;
+position: relative;
+
+  
+
+
+}
+
+.site-video .video .video01 > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+
+
+}
+
+
+
+.site .listas {
+
+  background: #35be7385;
+  padding: 0px 0px 10px 0px;
+  border-radius: 24px 29px 17px 17px;
+}
+
+.site .listas p,
+.lista-1 {
+
+  margin: 10px 16px;
+}
+
+
+.site .listas h3 {
+
+  background: #003813;
+  color: white;
+  font-size: 25pt;
+  padding: 15px 12px;
+  border-radius: 20px 20px 1px 1px;
+}
+
+
+.site .listas .lista-0 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.site .listas .lista-2 {
+  margin: 0 auto;
+}
+
+.site .listas .lista-0 .lista-1 ul,
+.site .listas .lista-0 .lista-2 ul {
+
+  list-style: none;
+  padding: 0;
+}
+
+.site .listas .lista-0 .lista-1 ul li,
+.site .listas .lista-0 .lista-2 ul li {
+  position: relative;
+  padding-left: 25px;
+  text-decoration: underline red;
+
+}
+
+
+.site .listas .lista-0 .lista-1 ul li::before {
+
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #003813;
+  font-weight: bold;
+}
+
+
+.site .listas .lista-0 .lista-2 ul li::before {
+
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #003813;
+  font-weight: bold;
+}
+
+
+.site .listas .Android-History a {
+
+  text-decoration: none;
+  color: #003813;
+  font-weight: bold;
+}
+
+.site .listas .Android-History img {
+
+  width: 16px;
+  height: 13px;
+}
+
+
+footer {
+
+  background: #003813;
+  padding: 1px 0;
+
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  margin: 2px;
+}
+
+
+footer span {
+  font-size: 13pt;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+
